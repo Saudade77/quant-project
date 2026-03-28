@@ -1,0 +1,16 @@
+Multi-Factor Backtest Report
+
+Performance Summary
+total_return: 2.271234
+annual_return: 0.273082
+annual_volatility: 0.226980
+sharpe: 1.203111
+max_drawdown: -0.321755
+latest_nav: 3.271234
+
+IC Summary
+mean_ic: 0.013049
+mean_rank_ic: 0.004778
+
+Group Return Summary
+average_long_short_return: 0.002310

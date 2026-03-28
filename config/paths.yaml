@@ -1,0 +1,8 @@
+paths:
+  market_data: data/raw/us_equity_prices.parquet
+  fundamentals_data: data/raw/us_equity_fundamentals.parquet
+  benchmark_data: data/raw/us_benchmark.parquet
+  processed_data_dir: data/processed
+  report_dir: outputs/reports
+  figure_dir: outputs/figures
+

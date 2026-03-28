@@ -1,0 +1,41 @@
+market: us
+start_date: "2018-01-01"
+end_date: "2024-12-31"
+benchmark: "SPY"
+
+universe:
+  min_history_days: 60
+  min_price: 5.0
+  max_missing_ratio: 0.05
+
+factors:
+  valuation:
+    enabled: true
+    fields:
+      - bp
+      - ep
+  momentum:
+    enabled: true
+    windows:
+      - 20
+      - 60
+  quality:
+    enabled: true
+    fields:
+      - roe
+
+preprocess:
+  winsorize: true
+  zscore: true
+
+portfolio:
+  rebalance_frequency: monthly
+  selection_method: top_n
+  top_n: 20
+  weighting: equal
+
+backtest:
+  commission_bps: 10
+  slippage_bps: 0
+  execution_price: close
+
