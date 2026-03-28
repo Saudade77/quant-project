@@ -12,6 +12,7 @@ __pycache__/
 .codex
 .vscode/
 .DS_Store
+.local-tools/
 
 data/raw/sec_source/
 data/raw/*.parquet
