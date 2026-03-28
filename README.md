@@ -1,5 +1,7 @@
 # Multi-Factor Stock Selection and Backtest System
 
+[中文版说明](README.zh-CN.md)
+
 A Python research project for quant research / quant strategy internship portfolios. The project builds a small but complete pipeline for:
 
 - preparing market and fundamentals data
